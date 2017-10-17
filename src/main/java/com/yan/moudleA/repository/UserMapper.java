@@ -4,7 +4,9 @@ import com.yan.base.repository.BaseMapper;
 import com.yan.moudleA.entity.User;
 
 /**
- * Created by yanshuai on 2017/8/3.
+ *
+ * @author yanshuai
+ * @date 2017/8/3
  */
 public interface UserMapper extends BaseMapper<User> {
 }

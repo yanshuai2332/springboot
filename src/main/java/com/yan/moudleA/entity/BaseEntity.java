@@ -10,7 +10,9 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by yanshuai on 2017/8/3.
+ *
+ * @author yanshuai
+ * @date 2017/8/3
  */
 @Data
 @NoArgsConstructor

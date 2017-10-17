@@ -11,7 +11,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 
 /**
- * Created by yanshuai on 2017/8/3.
+ *
+ * @author yanshuai
+ * @date 2017/8/3
  */
 @Table(name = "base_user")
 @Data

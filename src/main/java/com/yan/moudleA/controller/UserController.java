@@ -19,7 +19,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by yanshuai on 2017/8/3.
+ *
+ * @author yanshuai
+ * @date 2017/8/3
  */
 @RestController
 @RequestMapping(value = "manager/v1/app-users")
