@@ -22,7 +22,7 @@ spring:
     useGlobalDataSourceStat: true
 
 mybatis:
-  type-aliases-package: com.test.entiy
+  type-aliases-package: com.moudleA.entiy
   mapper-locations: classpath:mappers/*.xml
 
 log:

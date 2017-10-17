@@ -7,7 +7,9 @@ import java.util.Map;
 
 /**
  * 所有Entity中枚举类型的基础, 主要用于数据库中存储枚举的value和SpringMVC参数直接转换成Enum
- * Created by chenjiahai on 17/8/3.
+ *
+ * @author yanshuai
+ * @date 17/8/3
  */
 public interface CommonEntityEnum<E> {
 

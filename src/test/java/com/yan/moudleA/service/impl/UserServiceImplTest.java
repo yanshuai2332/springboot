@@ -1,7 +1,7 @@
-package com.yan.test.service.impl;
+package com.yan.moudleA.service.impl;
 
-import com.yan.test.entity.User;
-import com.yan.test.service.UserService;
+import com.yan.moudleA.entity.User;
+import com.yan.moudleA.service.UserService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

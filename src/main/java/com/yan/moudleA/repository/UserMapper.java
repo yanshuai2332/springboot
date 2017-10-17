@@ -1,7 +1,7 @@
-package com.yan.test.repository;
+package com.yan.moudleA.repository;
 
 import com.yan.base.repository.BaseMapper;
-import com.yan.test.entity.User;
+import com.yan.moudleA.entity.User;
 
 /**
  * Created by yanshuai on 2017/8/3.

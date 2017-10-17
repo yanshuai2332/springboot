@@ -7,7 +7,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * Created by chenjiahai on 17/8/7.
+ *
+ * @author yanshuai
+ * @date 17/8/7
  */
 public class StringToLocalDateTimeConverter implements Converter<String, LocalDateTime> {
 

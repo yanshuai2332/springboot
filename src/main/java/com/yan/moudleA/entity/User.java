@@ -1,7 +1,7 @@
-package com.yan.test.entity;
+package com.yan.moudleA.entity;
 
-import com.yan.test.group.groupA;
-import com.yan.test.group.groupB;
+import com.yan.moudleA.group.groupA;
+import com.yan.moudleA.group.groupB;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

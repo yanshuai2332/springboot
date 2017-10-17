@@ -8,7 +8,9 @@ import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by chenjiahai on 17/10/9.
+ *
+ * @author yanshuai
+ * @date 17/10/9
  */
 @Component
 public class RedisService {

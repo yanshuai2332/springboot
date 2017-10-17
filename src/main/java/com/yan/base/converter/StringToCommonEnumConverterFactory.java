@@ -7,7 +7,9 @@ import org.springframework.core.convert.converter.ConverterFactory;
 import org.springframework.util.StringUtils;
 
 /**
- * Created by chenjiahai on 17/8/7.
+ *
+ * @author yanshuai
+ * @date 17/8/7
  */
 public class StringToCommonEnumConverterFactory implements ConverterFactory<String, CommonEntityEnum> {
 

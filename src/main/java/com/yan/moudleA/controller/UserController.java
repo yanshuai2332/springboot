@@ -1,15 +1,15 @@
-package com.yan.test.controller;
+package com.yan.moudleA.controller;
 
 import com.yan.base.aop.annotation.ExceptionLog;
 import com.yan.base.aop.annotation.OperationLog;
 import com.yan.base.entity.Result;
 import com.yan.base.service.RedisService;
 import com.yan.base.util.ResultUtil;
-import com.yan.test.dto.UserDTO;
-import com.yan.test.entity.User;
-import com.yan.test.group.groupA;
-import com.yan.test.group.groupB;
-import com.yan.test.service.UserService;
+import com.yan.moudleA.dto.UserDTO;
+import com.yan.moudleA.entity.User;
+import com.yan.moudleA.group.groupA;
+import com.yan.moudleA.group.groupB;
+import com.yan.moudleA.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -44,7 +44,7 @@ public class UserController {
         return userService.getUser(userDTO);
     }
 
-    @ApiOperation(value = "test")
+    @ApiOperation(value = "moudleA")
     @PostMapping(value = "test")
     public Result<User> testApi(@RequestBody @Validated(value = groupB.class) User user, BindingResult bindingResult){
         if(bindingResult.hasErrors()){

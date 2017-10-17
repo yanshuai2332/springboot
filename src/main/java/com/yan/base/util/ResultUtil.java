@@ -3,7 +3,9 @@ package com.yan.base.util;
 import com.yan.base.entity.Result;
 
 /**
- * Created by yanshuai on 2017/8/4.
+ *
+ * @author yanshuai
+ * @date 2017/8/4
  */
 public class ResultUtil {
 

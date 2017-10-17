@@ -1,7 +1,7 @@
-package com.yan.test.service;
+package com.yan.moudleA.service;
 
-import com.yan.test.dto.UserDTO;
-import com.yan.test.entity.User;
+import com.yan.moudleA.dto.UserDTO;
+import com.yan.moudleA.entity.User;
 
 /**
  * Created by yanshuai on 2017/8/7.

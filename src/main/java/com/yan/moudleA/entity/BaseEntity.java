@@ -1,4 +1,4 @@
-package com.yan.test.entity;
+package com.yan.moudleA.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

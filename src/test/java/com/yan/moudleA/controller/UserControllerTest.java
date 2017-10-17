@@ -1,4 +1,4 @@
-package com.yan.test.controller;
+package com.yan.moudleA.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +23,7 @@ public class UserControllerTest {
 
     @Test
     public void getUserById() throws Exception {
-        mvc.perform(get("/test").param("id","1"))
+        mvc.perform(get("/moudleA").param("id","1"))
                 .andExpect(status().isOk());
     }
 

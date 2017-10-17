@@ -3,7 +3,9 @@ package com.yan.base.druid;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by chenjiahai on 17/5/2.
+ *
+ * @author yanshuai
+ * @date 17/5/2
  */
 @ConfigurationProperties(prefix = "spring.datasource")
 public class DruidProperties {

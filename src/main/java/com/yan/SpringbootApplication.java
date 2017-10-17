@@ -5,8 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
+/**
+ * @author YAN
+ */
 @SpringBootApplication
-@MapperScan(value = "com.yan.test.repository")
+@MapperScan(value = "com.yan.moudleA.repository")
 @ServletComponentScan
 public class SpringbootApplication {
 

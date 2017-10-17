@@ -5,11 +5,9 @@ import com.alibaba.druid.support.http.StatViewServlet;
 import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 
+
 /**
- * @author : songminghui
- * @date : 17/7/28 下午2:34
- * @description :
- * @email : songminghui@shangweiec.com
+ * @author YAN
  */
 @SuppressWarnings("serial")
 @WebServlet(urlPatterns = "/druid/*",

@@ -27,7 +27,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
- * Created by chenjiahai on 17/8/7.
+ *
+ * @author yanshuai
+ * @date 17/8/7
  */
 @Configuration
 public class WebMvcConfiguration extends WebMvcConfigurationSupport {

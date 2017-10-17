@@ -1,7 +1,7 @@
-package com.yan.test.dto;
+package com.yan.moudleA.dto;
 
-import com.yan.test.group.groupA;
-import com.yan.test.group.groupB;
+import com.yan.moudleA.group.groupA;
+import com.yan.moudleA.group.groupB;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

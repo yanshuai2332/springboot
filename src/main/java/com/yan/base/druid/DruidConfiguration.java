@@ -17,6 +17,9 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
+/**
+ * @author YAN
+ */
 @Configuration
 @EnableConfigurationProperties(DruidProperties.class)
 @ConditionalOnClass(DruidDataSource.class)
